@@ -146,7 +146,7 @@ fi
 fi
 
 echo ""
-wget -q https://raw.githubusercontent.com/mmfteam/folder872735625/tree/master/sshxray-main/FILE/dependencies.sh;chmod +x dependencies.sh;./dependencies.sh
+wget -q https://raw.githubusercontent.com/mmfteam/folder872735625/master/sshxray-main/FILE/dependencies.sh;chmod +x dependencies.sh;./dependencies.sh
 rm dependencies.sh
 clear
 
@@ -200,41 +200,41 @@ echo -e "${tyblue}|     PROCESS INSTALLED SSH & OPENVPN      |${NC}"
 echo -e "${tyblue}'------------------------------------------'${NC}"
 sleep 2
 clear
-wget https://raw.githubusercontent.com/mmfteam/folder872735625/tree/master/sshxray-main/FILE/SSH/ssh-vpn.sh && chmod +x ssh-vpn.sh && ./ssh-vpn.sh
+wget https://raw.githubusercontent.com/mmfteam/folder872735625/master/sshxray-main/FILE/SSH/ssh-vpn.sh && chmod +x ssh-vpn.sh && ./ssh-vpn.sh
 #Install Xray
 echo -e "${tyblue}.------------------------------------------.${NC}"
 echo -e "${tyblue}|          PROCESS INSTALLED XRAY          |${NC}"
 echo -e "${tyblue}'------------------------------------------'${NC}"
 sleep 2
 clear
-wget https://raw.githubusercontent.com/mmfteam/folder872735625/tree/master/sshxray-main/FILE/XRAY/ins-xray.sh && chmod +x ins-xray.sh && ./ins-xray.sh
+wget https://raw.githubusercontent.com/mmfteam/folder872735625/master/sshxray-main/FILE/XRAY/ins-xray.sh && chmod +x ins-xray.sh && ./ins-xray.sh
 #Install SSH Websocket
 echo -e "${tyblue}.------------------------------------------.${NC}"
 echo -e "${tyblue}|      PROCESS INSTALLED WEBSOCKET SSH     |${NC}"
 echo -e "${tyblue}'------------------------------------------'${NC}"
 sleep 2
 clear
-wget https://raw.githubusercontent.com/mmfteam/folder872735625/tree/master/sshxray-main/FILE/WEBSOCKET/insshws.sh && chmod +x insshws.sh && ./insshws.sh
+wget https://raw.githubusercontent.com/mmfteam/folder872735625/master/sshxray-main/FILE/WEBSOCKET/insshws.sh && chmod +x insshws.sh && ./insshws.sh
 #Install OHP Websocket
 echo -e "${tyblue}.------------------------------------------.${NC}"
 echo -e "${tyblue}|          PROCESS INSTALLED OHP           |${NC}"
 echo -e "${tyblue}'------------------------------------------'${NC}"
 sleep 2
 clear
-wget https://raw.githubusercontent.com/mmfteam/folder872735625/tree/master/sshxray-main/FILE/OPENVPN/ohp.sh && chmod +x ohp.sh && ./ohp.sh
+wget https://raw.githubusercontent.com/mmfteam/folder872735625/master/sshxray-main/FILE/OPENVPN/ohp.sh && chmod +x ohp.sh && ./ohp.sh
 #Install AutoBackup
 echo -e "${tyblue}.------------------------------------------.${NC}"
 echo -e "${tyblue}|          PROCESS INSTALLED AUTO BACKUP           |${NC}"
 echo -e "${tyblue}'------------------------------------------'${NC}"
 sleep 2
 clear
-wget https://raw.githubusercontent.com/mmfteam/folder872735625/tree/master/sshxray-main/backup/set-br.sh && chmod +x set-br.sh && ./set-br.sh
+wget https://raw.githubusercontent.com/mmfteam/folder872735625/master/sshxray-main/backup/set-br.sh && chmod +x set-br.sh && ./set-br.sh
 #Download Extra Menu
 echo -e "${tyblue}.------------------------------------------.${NC}"
 echo -e "${tyblue}|           DOWNLOAD EXTRA MENU            |${NC}"
 echo -e "${tyblue}'------------------------------------------'${NC}"
 sleep 2
-wget https://raw.githubusercontent.com/mmfteam/folder872735625/tree/master/sshxray-main/FILE/MENU/update.sh && chmod +x update.sh && ./update.sh
+wget https://raw.githubusercontent.com/mmfteam/folder872735625/master/sshxray-main/FILE/MENU/update.sh && chmod +x update.sh && ./update.sh
 clear
 cat> /root/.profile << END
 # ~/.profile: executed by Bourne-compatible login shells.
@@ -258,7 +258,7 @@ if [ ! -f "/etc/log-create-user.log" ]; then
 echo "Log All Account " > /etc/log-create-user.log
 fi
 history -c
-serverV=$( curl -sS https://raw.githubusercontent.com/mmfteam/folder872735625/tree/master/sshxray-main/FILE/version  )
+serverV=$( curl -sS https://raw.githubusercontent.com/mmfteam/folder872735625/master/sshxray-main/FILE/version  )
 echo $serverV > /opt/.ver
 aureb=$(cat /home/re_otm)
 b=11
