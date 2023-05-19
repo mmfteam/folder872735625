@@ -198,10 +198,10 @@ read -p "$( echo -e "${GREEN}Please Input ! ${NC}(${YELLOW}1/2${NC})${NC} " )" c
 if [[ $choose_domain == "2" ]]; then # // Using Automatic Domain
 # // String / Request Data
 sub=$(</dev/urandom tr -dc a-z0-9 | head -c4)
-DOMAIN=vpncantik.tech
-SUB_DOMAIN=${sub}.vpncantik.tech
-CF_ID=cloudflaredomainpanel@gmail.com
-CF_KEY=91b7451cf8fed9cbc1c4ca31931ffce8741f6
+DOMAIN=mmfteam.me
+SUB_DOMAIN=${sub}.mmfteam.me
+CF_ID=irfanpmc99@gmail.com
+CF_KEY=X_CFDJzV5LHJosEBYqTQyVNP0L7u9wOFqjxJt51x
 set -euo pipefail
 IP=$(curl -sS ifconfig.me);
 echo "Updating DNS for ${SUB_DOMAIN}..."
